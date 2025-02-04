@@ -93,7 +93,7 @@ class Game:
 
     def check_food(self):
         if snake.head == self.food.position:
-            self.score += 10
+            self.score += 100
             self.food = Food()
             self.food_eaten = True
             self.speed += 1  # 每次吃到食物，速度增加 1
